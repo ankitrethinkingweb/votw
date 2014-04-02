@@ -1,0 +1,57 @@
+[05-Aug-2013 09:24:15 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/inrethin/public_html/visa_app/app/View/Users/agent_trans.ctp on line 32
+[05-Aug-2013 13:03:31 UTC] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/inrethin/public_html/visa_app/app/Plugin/Usermgmt/Controller/UsersController.php on line 843
+[05-Aug-2013 13:04:03 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/inrethin/public_html/visa_app/app/Plugin/Usermgmt/Controller/UsersController.php on line 843
+[05-Aug-2013 13:05:22 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/inrethin/public_html/visa_app/app/Plugin/Usermgmt/Controller/UsersController.php on line 843
+[29-Aug-2013 05:34:41 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/inrethin/public_html/visa_app/app/View/Users/all_visa_app.ctp on line 66
+[29-Aug-2013 07:22:02 UTC] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home/inrethin/public_html/visa_app/app/Controller/UsersController.php on line 285
+[29-Aug-2013 07:23:59 UTC] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home/inrethin/public_html/visa_app/app/Controller/UsersController.php on line 285
+[29-Aug-2013 07:27:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/inrethin/public_html/visa_app/app/Controller/UsersController.php on line 1473
+[29-Aug-2013 08:55:06 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/inrethin/public_html/visa_app/app/View/Users/all_visa_app.ctp on line 61
+[29-Aug-2013 09:05:20 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home/inrethin/public_html/visa_app/app/View/Users/all_visa_app.ctp on line 61
+[29-Aug-2013 09:08:07 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/inrethin/public_html/visa_app/app/View/Users/all_visa_app.ctp on line 61
+[02-Sep-2013 16:21:23 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/inrethin/public_html/visa_app/app/Config/database.php on line 67
+[02-Sep-2013 16:21:53 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/inrethin/public_html/visa_app/app/Config/database.php on line 67
+[02-Sep-2013 16:22:50 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/inrethin/public_html/visa_app/app/Config/database.php on line 67
+[02-Sep-2013 16:23:19 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/inrethin/public_html/visa_app/app/Config/database.php on line 67
+[04-Sep-2013 09:47:11] PHP Parse error:  syntax error, unexpected T_GLOBAL, expecting ')' in /home/globalvo/public_html/visa_app/app/Plugin/Usermgmt/Model/User.php on line 279
+[04-Sep-2013 09:47:38] PHP Parse error:  syntax error, unexpected T_GLOBAL, expecting ')' in /home/globalvo/public_html/visa_app/app/Plugin/Usermgmt/Model/User.php on line 279
+[04-Sep-2013 09:47:58] PHP Parse error:  syntax error, unexpected T_STRING in /home/globalvo/public_html/visa_app/app/Plugin/Usermgmt/Model/User.php on line 282
+[04-Sep-2013 19:18:53] PHP Parse error:  syntax error, unexpected T_GLOBAL, expecting ')' in /home/globalvo/public_html/visa_app/app/View/Users/group_visa_app.ctp on line 17
+[05-Sep-2013 10:53:27] PHP Fatal error:  Call to a member function tag() on a non-object in /home/globalvo/public_html/visa_app/app/Plugin/Usermgmt/Model/User.php on line 279
+[05-Sep-2013 02:22:15] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 1139
+[05-Sep-2013 02:53:20] PHP Warning:  unlink(/home/globalvo/public_html/visa_app/app/tmp/cache/models/myapp_cake_model_default_globalvo_visa_user_meta) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/globalvo/public_html/visa_app/lib/Cake/Cache/Engine/FileEngine.php on line 255
+[05-Sep-2013 12:31:15] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /home/globalvo/public_html/visa_app/app/Model/User.php on line 264
+[05-Sep-2013 12:37:20] PHP Parse error:  syntax error, unexpected T_LOGICAL_AND, expecting ',' or ')' in /home/globalvo/public_html/visa_app/app/Model/User.php on line 298
+[06-Sep-2013 18:06:48] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/globalvo/public_html/visa_app/app/View/Users/visa_app.ctp on line 482
+[06-Sep-2013 18:08:20] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/globalvo/public_html/visa_app/app/View/Users/visa_app.ctp on line 482
+[06-Sep-2013 18:10:00] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/globalvo/public_html/visa_app/app/View/Users/visa_app.ctp on line 482
+[06-Sep-2013 18:13:09] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/globalvo/public_html/visa_app/app/View/Users/visa_app.ctp on line 489
+[06-Sep-2013 18:16:59] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/globalvo/public_html/visa_app/app/View/Users/visa_app.ctp on line 482
+[07-Sep-2013 12:18:05] PHP Parse error:  syntax error, unexpected T_ECHO in /home/globalvo/public_html/visa_app/app/View/Users/all_visa_app.ctp on line 91
+[07-Sep-2013 12:27:53] PHP Parse error:  syntax error, unexpected '<' in /home/globalvo/public_html/visa_app/app/View/Users/all_visa_app.ctp on line 90
+[07-Sep-2013 15:00:55] PHP Fatal error:  Call to undefined method UsersController::autoRender() in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 2059
+[07-Sep-2013 05:33:45] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 2051
+[07-Sep-2013 15:13:41] PHP Fatal error:  Class 'Sanitize' not found in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 2065
+[07-Sep-2013 15:14:27] PHP Fatal error:  Class 'Sanitize' not found in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 2065
+[07-Sep-2013 15:20:26] PHP Fatal error:  Call to undefined function  html_entities() in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 2064
+[07-Sep-2013 15:23:24] PHP Fatal error:  Call to undefined function  html_entities() in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 2064
+[07-Sep-2013 15:23:37] PHP Fatal error:  Call to undefined function  html_entities() in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 2064
+[21-Sep-2013 06:02:01] PHP Fatal error:  Cannot redeclare UsersController::export_xls() in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 2095
+[21-Sep-2013 06:02:24] PHP Fatal error:  Cannot redeclare UsersController::export_xls() in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 2095
+[21-Sep-2013 06:02:30] PHP Fatal error:  Cannot redeclare UsersController::export_xls() in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 2095
+[21-Sep-2013 06:02:41] PHP Fatal error:  Cannot redeclare UsersController::export_xls() in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 2095
+[21-Sep-2013 06:03:31] PHP Fatal error:  Cannot redeclare UsersController::export_xls() in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 2095
+[07-Oct-2013 01:28:14] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_FUNCTION in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 337
+[07-Oct-2013 01:29:06] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_FUNCTION in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 337
+[07-Oct-2013 01:33:20] PHP Fatal error:  Call to undefined function  compress() in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 338
+[07-Oct-2013 01:33:21] PHP Fatal error:  Call to undefined function  compress() in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 338
+[07-Oct-2013 01:33:45] PHP Fatal error:  Call to undefined function  compress() in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 338
+[07-Oct-2013 02:27:46] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 295
+[07-Oct-2013 02:27:46] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/globalvo/public_html/visa_app/app/Controller/UsersController.php on line 295
+[09-Oct-2013 11:05:28] PHP Parse error:  syntax error, unexpected '<' in /home/globalvo/public_html/visa_app/app/View/Users/agent_trans.ctp on line 19
+[09-Oct-2013 11:05:30] PHP Parse error:  syntax error, unexpected '<' in /home/globalvo/public_html/visa_app/app/View/Users/agent_trans.ctp on line 19
+[09-Oct-2013 11:09:07] PHP Parse error:  syntax error, unexpected '<' in /home/globalvo/public_html/visa_app/app/View/Users/agent_trans.ctp on line 19
+[09-Oct-2013 11:09:09] PHP Parse error:  syntax error, unexpected '<' in /home/globalvo/public_html/visa_app/app/View/Users/agent_trans.ctp on line 19
+[09-Oct-2013 11:09:11] PHP Parse error:  syntax error, unexpected '<' in /home/globalvo/public_html/visa_app/app/View/Users/agent_trans.ctp on line 19
+[09-Oct-2013 11:09:36] PHP Parse error:  syntax error, unexpected '<' in /home/globalvo/public_html/visa_app/app/View/Users/agent_trans.ctp on line 11
+[09-Oct-2013 11:10:02] PHP Parse error:  syntax error, unexpected '<' in /home/globalvo/public_html/visa_app/app/View/Users/agent_trans.ctp on line 11
