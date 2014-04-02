@@ -4,7 +4,7 @@
 text-align:left!important;
 }
 </style>
-<?='<p ><a class="btn btn-extend" href="'.$this->webroot.'new_transaction" >Add New Bank Transactions</a></p>';?>
+<p ><a class="btn btn-extend" href="<?php echo $this->webroot; ?>new_transaction" >Add New Bank Transactions</a></p>
 <div class="container-fluid">
 	
 			<div class="row-fluid">
@@ -34,15 +34,11 @@ text-align:left!important;
 			<?php if (!empty($trans)) {
 							$sl=0;
 							foreach ($trans as $row) {
-							if($row['new_transaction']['role_id'] == 1){
-							$username = $row['new_transaction']['user'].' <i class="icon-info-sign" style="color:red;" title="Paid By Admin"></i>';
-							} else {
-							$username = $row['new_transaction']['user'];
-							}
+							
 								$sl++;
 								echo "<tr>";
 								echo "<td>".$sl."</td>";
-								echo "<td>".$username."</td>";
+								echo "<td>".h($row['new_transaction']['user'])."</td>";
 								if(strlen($row['new_transaction']['bank_name']) > 0)
 								echo "<td>".h($row['new_transaction']['bank_name'])."</td>";
 								else echo "<td>-</td>";

@@ -148,17 +148,17 @@ echo $this->fetch('script');
     }						
    //echo "<a href='javascript:void(0);' class='btn btn-danger' data-original-title='Delete Extension' onclick='delete_extension(".$row['ext_details']['ext_id'].");'><i class='icon-remove-sign'></i></a>";
 							}
-					if($row['ext_details']['ext_payment_status'] > 1 && strlen($row['ext_details']['inv_path']) > 0){
+						if($row['ext_details']['ext_payment_status'] > 1 && strlen($row['ext_details']['inv_path']) > 0){
 			if($this->UserAuth->getGroupName() != 'User'){
-				 echo '<a href="'.$this->webroot.'app/webroot/uploads/receipt/ext/'.$row['ext_details']['inv_apath'].'"  title= "Download Invoice" class="btn btn-warning" download><i class="icon-download"></i></a>';
+				 echo '<a href="'.$this->webroot.'app/webroot/uploads/receipt/ext/'.$row['ext_details']['inv_apath'].'"  title= "Download Invoice" class="btn btn-success" download><i class="icon-download"></i></a>';
 			}else{
-				 echo '<a href="'.$this->webroot.'app/webroot/uploads/receipt/ext/'.$row['ext_details']['inv_path'].'"  title= "Download Invoice" class="btn btn-warning" download><i class="icon-download"></i></a>';
+				 echo '<a href="'.$this->webroot.'app/webroot/uploads/receipt/ext/'.$row['ext_details']['inv_path'].'"  title= "Download Invoice" class="btn btn-success" download><i class="icon-download"></i></a>';
 			}
-		}				
+		}			
 							if($row['ext_details']['ext_payment_status'] <= 2 ){
    echo "<a href='javascript:void(0);' class='btn btn-danger' data-original-title='Delete Extension' onclick='delete_extension(".$row['ext_details']['ext_id'].");'><i class='icon-remove-sign'></i></a>";							
 							}
-									
+							
 if($row['ext_details']['ext_payment_status'] == 5 && strlen($row['ext_details']['ext_visa_path']) > 0 && $row['ext_details']['ext_visa_path'] != NULL){
 	echo "<a href = '".$this->webroot."app/webroot/uploads/Extension/visa/".trim($row['ext_details']['ext_no'])."/".$row['ext_details']['ext_visa_path']."' download class='btn btn-info' data-original-title='Download Extension'><i class='icon-download'></i></a>";
 }

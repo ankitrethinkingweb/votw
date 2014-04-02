@@ -100,7 +100,7 @@ echo $this->fetch('script');
 					
 						<div class="form-actions">		
 						<button type="submit" class="btn btn-primary" style="margin-left: 10px;"> Apply </button>	
-						<button type="button" class="btn btn-primary" style="margin-left: 10px;" onclick = "not_apply();" > Exit </button>						 
+						<button type="button" class="btn btn-primary" style="margin-left: 10px;" onclick = "not_apply();" > Do Not Apply </button>						 
 						</div>	
 						<?php echo $this->Form->end(); ?>		
 					</div>

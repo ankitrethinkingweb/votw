@@ -47,7 +47,7 @@
 					</div>
 				</div>
 			</div>
-				 <div class = "span5" style="width: 37.425532%!important;">
+				 <div class = "span5">
 				
 				
 				<h6 class="page-header" style="float:left;width: 100%;"> OKTB Applications </h6>
