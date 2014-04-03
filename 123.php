@@ -1,4 +1,6 @@
 <?php
+session_start();
+echo '<title>Hi</title>';
 echo 'hi';
 
 function addition($num1 ,$num2)
